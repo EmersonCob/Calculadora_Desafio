@@ -7,3 +7,26 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+
+body
+{
+    background: #001923;
+    height: 100vh;
+}
+
+.container
+{
+    background: #fff;
+    width: 220px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.content
+{
+    background: #fff;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
