@@ -11,14 +11,37 @@
 body
 {
     background: #001923;
+    height: 100vh;
+    align-items: center;
 }
 
 .container
 {
-    border-radius: 8px;
-    margin: auto;
+    align-items: center;
+    justify-content: center;
     display: flex;
+    margin-top: 100px;
+}
+
+.content
+{
+    border-radius: 8px;
     height: 380px;
     width: 260px;
-    background: #fff;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.10);
+}
+
+.box
+{
+ 
+
+}
+
+button
+{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    font-size: 15pt;
 }
