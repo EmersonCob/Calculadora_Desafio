@@ -15,25 +15,10 @@ body
 
 .container
 {
-    background: #fff;
-    width: 220px;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-}
-
-.content
-{
-    background: #fff;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-}
-
-.box
-{
-    display: grid;
-    grid-template-columns: 50px 50px 50px;
+    border-radius: 8px;
+    margin: auto;
+    display: flex;
     height: 380px;
-    border-radius: 100%;
+    width: 260px;
+    background: #fff;
 }
