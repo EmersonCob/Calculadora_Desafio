@@ -40,6 +40,12 @@ body
 
 button
 {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 5px;
+    padding: 5px;
+    cursor: pointer;
     height: 50px;
     width: 50px;
     border-radius: 50%;
