@@ -26,8 +26,8 @@ body
 .content
 {
     border-radius: 8px;
-    height: 420px;
-    width: 280px;
+    height: 520px;
+    width: 320px;
     padding: 20px;
     background: rgba(255, 255, 255, 0.10);
 }
@@ -55,8 +55,8 @@ button
     padding: 5px;
     border-radius: 5px;
     cursor: pointer;
-    height: 50px;
-    width: 50px;
+    height: 60px;
+    width: 60px;
     font-size: 15pt;
     position: relative;
 }
