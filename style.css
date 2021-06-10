@@ -53,9 +53,17 @@ button
     justify-content: center;
     margin: 5px;
     padding: 5px;
+    border-radius: 5px;
     cursor: pointer;
     height: 50px;
     width: 50px;
-    border-radius: 50%;
     font-size: 15pt;
+    position: relative;
+}
+
+.number
+{
+    background: #9c9c9c3b;
+    border: none;
+    color: #fff;
 }
