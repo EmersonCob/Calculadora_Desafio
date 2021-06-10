@@ -48,22 +48,27 @@ input
 
 button
 {
-    align-items: center;
-    text-align: center;
-    justify-content: center;
+    float: left;
     margin: 5px;
     padding: 5px;
     border-radius: 5px;
     cursor: pointer;
     height: 60px;
     width: 60px;
-    font-size: 15pt;
+    font-size: 18pt;
     position: relative;
 }
 
 .number
 {
     background: #9c9c9c3b;
+    border: none;
+    color: #fff;
+}
+
+.operator
+{
+    background: #9c9c9c3b; 
     border: none;
     color: #fff;
 }
