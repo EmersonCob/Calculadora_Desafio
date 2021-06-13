@@ -82,14 +82,23 @@ button
     display:grid;
 }
 
-.number
+.empty
 {
     border: none;
-    background: #08dddd59;
+    background: #dadd083b;
     color: #fff;
 }
 
-.operatorBox
+.number
 {
-    
+    border: none;
+    background: #08dddd3b;
+    color: #fff;
+}
+
+.operator
+{
+    border: none;
+    background: #0fdd0859;
+    color: #fff;
 }
