@@ -34,9 +34,8 @@ body
 
 .magicBox
 {
-    display: grid;
     width: 100%;
-    height: 40vh;
+    height: 35vh;
 }
 
 input
@@ -54,11 +53,6 @@ input
     margin-bottom: 15px;
 }
 
-.buttonBox
-{
-    float: left;
-    position: relative;
-}
 
 button
 {
@@ -72,28 +66,17 @@ button
     font-size: 18pt;
 }
 
-.number
+.buttonBox
 {
-    background: #9c9c9c3b;
-    border: none;
-    color: #fff;
-}
-
-.operatorBox
-{
-    display: grid;
-}
-
-.operator
-{
-    background: #9c9c9c3b; 
-    border: none;
-    color: #fff;
+    width: 218px;
 }
 
 .numberBox
 {
-    position: relative;
-    width: 220px;
-    height: 290px;
+    width: 218px;
+}
+
+.operatorBox
+{
+    display:grid;
 }
