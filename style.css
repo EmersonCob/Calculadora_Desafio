@@ -19,11 +19,12 @@ body
 {
     align-items: center;
     justify-content: center;
+    text-align: center;
     display: flex;
     margin-top: 100px;
 }
 
-.content
+.displayBox
 {
     border-radius: 8px;
     height: 520px;
@@ -32,81 +33,66 @@ body
     background: rgba(255, 255, 255, 0.10);
 }
 
-.magicBox
+p
 {
-    width: 100%;
-    height: 35vh;
-    margin-top: 20px;
-}
-
-.inputBox
-{
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-
-input
-{
-    background: #00192398;
+    background: #001923;
     color: #fff;
     border: none;
     outline: none;
     text-align: right;
-    font-size: 14pt;
+    justify-content: center;
+    align-items: center;
+    font-size: 20pt;
     margin: 20px 0;
-    padding: 10px;
+    padding: 16px;
     height: 70px;
-    width: 274px;
+    width: 100%;
     border-radius: 8px;
-    margin-bottom: 15px;
 }
 
+.magicBox
+{
+    height: 33vh;
+    margin-top: 35px;
+    border-radius: 8px;
+}
 
-button
+.btn
 {
     float: left;
-    margin: 5px;
-    padding: 5px;
-    border-radius: 5px;
+    margin: 5px 5px;
+    padding: 8px;
+    border-radius: 8px;
     cursor: pointer;
     height: 60px;
     width: 60px;
-    font-size: 18pt;
+    font-size: 22pt;
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
 }
 
-.buttonBox
+span:active
 {
-    width: 218px;
+    transform: scale(1.05);
 }
 
-.numberBox
-{
-    width: 218px;
-}
-
-.operatorBox
-{
-    display:grid;
-}
-
-.empty
+#empty
 {
     border: none;
     background: #dadd083b;
-    color: #fff;
 }
 
-.number
+#number
 {
     border: none;
     background: #08dddd3b;
-    color: #fff;
 }
 
-.operator
+#operator
 {
     border: none;
     background: #0fdd0859;
-    color: #fff;
 }
